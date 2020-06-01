@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when an item has loaded 1`] = `
+<div
+  className="item"
+>
+  <h1>
+    An item
+  </h1>
+  <form>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="An item"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Cancel"
+    />
+    <input
+      onClick={[Function]}
+      type="button"
+      value="Save"
+    />
+  </form>
+</div>
+`;
+
+exports[`renders correctly when data is loading 1`] = `
+<div
+  className="loader"
+>
+  Loading...
+</div>
+`;

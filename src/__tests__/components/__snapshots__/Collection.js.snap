@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when data is loading 1`] = `
+<div
+  className="loader"
+>
+  Loading...
+</div>
+`;
+
+exports[`renders correctly when items have loaded 1`] = `
+<div
+  className="collection"
+>
+  <h1 />
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a
+            href="/undefined/1"
+            onClick={[Function]}
+          >
+            Item 1
+          </a>
+        </td>
+        <td>
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Delete"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="/undefined/2"
+            onClick={[Function]}
+          >
+            Item 2
+          </a>
+        </td>
+        <td>
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Delete"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="/undefined/3"
+            onClick={[Function]}
+          >
+            Item 3
+          </a>
+        </td>
+        <td>
+          <input
+            onClick={[Function]}
+            type="button"
+            value="Delete"
+          />
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <a
+    href="/undefined/item/add"
+    onClick={[Function]}
+  >
+    Add item
+  </a>
+</div>
+`;
