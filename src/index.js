@@ -25,5 +25,5 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>{routes}</BrowserRouter>
   </Provider>,
-  document.querySelector('#enrolments-app'),
+  document.querySelector('#foundation-app'),
 );
